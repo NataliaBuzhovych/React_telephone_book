@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { contacts } from "./Contacts";
+import { useState } from "react";
+import Table from "./Contact";
 
 function App() {
+  const [word, findContact] = useState("");
+  const search = (data) => {
+    return data.filter(
+      (el) =>
+        el.firstName.toLowerCase().includes(word) ||
+        el.lastName.toLowerCase().includes(word) ||
+        el.phone.toLowerCase().includes(word)
+    );
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="serch">
+        <input
+          type="text"
+          placeholder="Search"
+          onChange={(e) => findContact(e.target.value)}
+        ></input>
+      </div>
+      <Table data={search(contacts)} />
     </div>
   );
 }
