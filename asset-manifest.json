@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cursor_ADV_React_telephone_book/static/css/main.4137c939.css",
+    "main.js": "/Cursor_ADV_React_telephone_book/static/js/main.4e834bb2.js",
+    "static/js/787.702f20a0.chunk.js": "/Cursor_ADV_React_telephone_book/static/js/787.702f20a0.chunk.js",
+    "index.html": "/Cursor_ADV_React_telephone_book/index.html",
+    "main.4137c939.css.map": "/Cursor_ADV_React_telephone_book/static/css/main.4137c939.css.map",
+    "main.4e834bb2.js.map": "/Cursor_ADV_React_telephone_book/static/js/main.4e834bb2.js.map",
+    "787.702f20a0.chunk.js.map": "/Cursor_ADV_React_telephone_book/static/js/787.702f20a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4137c939.css",
+    "static/js/main.4e834bb2.js"
+  ]
+}
