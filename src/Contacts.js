@@ -34,4 +34,34 @@ export const contacts = [
     phone: "+380956319521",
     gender: "male",
   },
+  {
+    firstName: "Луцінс",
+    lastName: "Мотсбес",
+    phone: "+380956319326",
+    gender: "male",
+  },
+  {
+    firstName: "Маківка",
+    lastName: "Лендроус",
+    phone: "+380936319521",
+    gender: "female",
+  },
+  {
+    firstName: "Джеймі",
+    lastName: "Тріумус",
+    phone: "+380956316421",
+    gender: "male",
+  },
+  {
+    firstName: "Назар",
+    lastName: "Тижай",
+    phone: "+380956879521",
+    gender: "male",
+  },
+  {
+    firstName: "Міра",
+    lastName: "Мерві",
+    phone: "+380966319881",
+    gender: "female",
+  },
 ];
