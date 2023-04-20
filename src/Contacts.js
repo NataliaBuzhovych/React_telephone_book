@@ -15,6 +15,7 @@ export const contacts = [
     firstName: "Анонімний",
     lastName: "Анонімус",
     phone: "+380666666666",
+    gender: "male",
   },
   {
     firstName: "Лілія",
